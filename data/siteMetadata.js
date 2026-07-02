@@ -7,7 +7,7 @@ const siteMetadata = {
   language: 'zh-CN',
   theme: 'system', // system, dark or light
   language: 'zh-CN',
-  siteUrl: 'https://wm2242.github.io',
+  siteUrl: 'https://web.guoblog.dpdns.org',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
