@@ -98,7 +98,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
       {process.env.NODE_ENV === 'production' && (
         <Script
-          src="https://umami-omega-silk.vercel.app/script.js"
+          src="https://umami-new.cc.cd/script.js"
           strategy="afterInteractive"
           data-website-id="2e99f110-3c3d-4ea7-8e85-8b926bd1f808"
         />
