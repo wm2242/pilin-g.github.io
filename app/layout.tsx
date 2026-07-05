@@ -94,6 +94,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
       <link rel="alternate" type="application/rss+xml" href={`${basePath}/feed.xml`} />
+
+      {/* Umami tracking script inserted below */}
+      <script
+        defer
+        src="https://umami-eta-ashen-69.vercel.app/script.js"
+        data-website-id="2e99f110-3c3d-4ea7-8e85-8b926bd1f808"
+      ></script>
+
       <body className="bg-white pl-[calc(100vw-100%)] text-black antialiased dark:bg-gray-950 dark:text-white">
         <ThemeProviders>
           <Analytics analyticsConfig={siteMetadata.analytics as AnalyticsConfig} />
