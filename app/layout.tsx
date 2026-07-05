@@ -98,8 +98,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       {/* Umami analytics script */}
       <script
         defer
-        src="https://umami-cyan-six.vercel.app/script.js"
-        data-website-id="b9cde4fb-0938-4b73-90e6-28e30ce264fc"
+        src="https://umami-test.cc.cd/script.js"
+        data-website-id="9fb5818e-2610-437e-919f-12f10bdb90e4"
       />
 
       <body className="bg-white pl-[calc(100vw-100%)] text-black antialiased dark:bg-gray-950 dark:text-white">
