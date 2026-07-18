@@ -14,7 +14,7 @@ const siteMetadata = {
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'admin@pilinmail.cc.cd',
   github: 'https://github.com',
-  x: 'https://twitter.com/x',
+  x: 'https://x.com/guo_lin87180',
   // twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
