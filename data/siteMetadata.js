@@ -23,6 +23,7 @@ const siteMetadata = {
   instagram: 'https://www.instagram.com',
   medium: 'https://medium.com',
   bluesky: 'https://bsky.app/',
+  telegram: 'https://web.telegram.org/k/#-4257855186',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
