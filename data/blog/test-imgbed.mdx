@@ -12,8 +12,6 @@ layout: PostLayout
 
 市面上的免费图床要么不稳定，要么悄悄给图片加水印、压缩画质，甚至删除“违规”图片。于是我用 **Sanyue** 部署了一套完全由自己控制的图床：图片存于我的私密 Telegram 频道，通过 Cloudflare Workers 代理，再绑定个人域名。
 
-现在图床搭建完成，我写了一篇测试文章来验证它的各项能力。如果你也刚搭好图床，可以跟着这篇文档逐一检测。
-
 ---
 
 ## 测试 1：基础图片渲染
@@ -59,7 +57,7 @@ layout: PostLayout
 图床图片不仅可以插入，还能作为可点击的链接。例如点击下方图片可以跳转到我的博客首页。
 
 ```markdown
-[![点击访问图床](https://img.guoblog.dpdns.org/file/1784396388270_屏幕截图_2025-11-21_183217.png)](https://img.guoblog.dpdns.org/)
+[![点击访问博客](https://img.guoblog.dpdns.org/file/1784396388270_屏幕截图_2025-11-21_183217.png)](https://img.guoblog.dpdns.org/)
 ```
 [![点击访问博客](https://img.guoblog.dpdns.org/file/1784396388270_屏幕截图_2025-11-21_183217.png)](https://web.guoblog.dpdns.org/)
 
